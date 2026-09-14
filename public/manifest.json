@@ -1,0 +1,19 @@
+{
+  "name": "AgriMobi AI",
+  "short_name": "AgriMobi",
+  "description": "Offline-first crop decision support for smallholder maize farmers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2E7D32",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
