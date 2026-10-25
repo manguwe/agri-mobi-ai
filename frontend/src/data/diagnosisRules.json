@@ -1,0 +1,50 @@
+{
+  "version": "rules-v2",
+  "note": "Single source of truth for the diagnosis engine. Read by frontend/src/services/diagnosisEngine.js AND backend/app/diagnosis.py. Edit here only, then run both test suites. Text is normalised (lowercase, every non a-z0-9 character becomes a space) before matching, so write phrases with plain spaces and match whole words only.",
+  "thresholds": {
+    "min_candidate_score": 3,
+    "contradiction_penalty": 2,
+    "confidence_floor": 5,
+    "high": { "score": 9, "margin": 3 },
+    "medium": { "score": 6, "margin": 2 },
+    "max_follow_ups": 2
+  },
+  "aliases": {
+    "worms": ["worm", "worms", "caterpillar", "caterpillars", "larvae", "larva", "armyworm"],
+    "holes": ["hole", "holes", "chewed", "chewing", "ragged", "eaten", "feeding", "shot hole", "window pane"],
+    "whorl": ["whorl", "centre", "center", "central", "shoot"],
+    "frass": ["frass", "droppings", "sawdust"],
+    "streaks": ["streak", "streaks", "stripe", "stripes", "vein streak", "yellow lines along veins"],
+    "rust_pustules": ["pustule", "pustules", "rust", "powdery", "cinnamon", "golden brown", "brown spots"],
+    "rectangular": ["rectangular", "rectangle", "boxy", "straight edged", "gray brown", "grey brown", "lesion", "lesions"],
+    "dead_heart": ["dead heart", "deadheart", "central shoot dies", "central shoot wilts", "dead central shoot"],
+    "stem": ["stem", "stalk", "nodes", "node", "tunnel", "tunneling", "tunnelling", "tunnels", "bore", "boring", "bore holes", "lodging"],
+    "yellow": ["yellow", "yellowing", "chlorotic", "pale", "paleness"],
+    "older_leaves": ["older leaves", "old leaves", "lower leaves", "bottom leaves", "older", "older leaf", "lower leaf"],
+    "v_shape": ["v shaped", "v shape", "vshape"],
+    "rolled": ["rolling", "rolled", "folding", "folded", "straw like", "like straws", "like a straw"],
+    "dry": ["dry", "drought", "heat stress", "dryness", "dry soil"],
+    "wet": ["waterlogged", "waterlogging", "water logged", "saturated", "muddy", "standing water", "water standing", "heavy rain", "heavy rainfall", "too much rain", "flooded", "flooding"],
+    "roots": ["roots", "root", "mushy", "decayed", "decay", "rotting roots"],
+    "insects": ["insect", "insects", "bug", "bugs", "aphid", "leafhopper", "thrips"],
+    "stunting": ["stunted", "stunting", "weak", "unthrifty", "not growing"]
+  },
+  "profiles": {
+    "faw-001": { "weights": { "worms": 5, "whorl": 3, "frass": 4, "holes": 2, "insects": 1 }, "contradictions": ["streaks", "rust_pustules", "rectangular", "v_shape", "wet"] },
+    "msv-001": { "weights": { "streaks": 6, "insects": 2, "stunting": 2, "yellow": 1 }, "contradictions": ["frass", "holes", "rust_pustules", "rectangular", "wet"] },
+    "rust-001": { "weights": { "rust_pustules": 7, "yellow": 1 }, "contradictions": ["rectangular", "streaks", "frass", "dead_heart", "wet"] },
+    "gls-001": { "weights": { "rectangular": 7, "older_leaves": 2, "yellow": 1 }, "contradictions": ["rust_pustules", "streaks", "frass", "worms"] },
+    "stemborer-001": { "weights": { "dead_heart": 5, "stem": 5, "holes": 2, "frass": 2, "whorl": 1, "worms": 2 }, "contradictions": ["streaks", "rust_pustules", "rectangular", "v_shape", "wet"] },
+    "nitrogen-001": { "weights": { "yellow": 3, "older_leaves": 3, "v_shape": 6, "stunting": 1 }, "contradictions": ["worms", "frass", "rust_pustules", "rectangular", "wet"] },
+    "drought-001": { "weights": { "rolled": 6, "dry": 6, "stunting": 1, "yellow": 1 }, "contradictions": ["wet", "frass", "worms", "rust_pustules"] },
+    "waterlog-001": { "weights": { "wet": 7, "roots": 5, "yellow": 3, "older_leaves": 1, "stunting": 1 }, "contradictions": ["dry", "rolled", "frass", "worms"] }
+  },
+  "follow_ups": {
+    "streaks": { "id": "leaf_pattern", "question": "What do the marks on the leaves look like?", "options": ["Yellow streaks or stripes along the veins", "Round or powdery spots", "Long rectangular grey/brown lesions", "Not sure"] },
+    "insects": { "id": "insects", "question": "Can you see insects, worms or caterpillars on the plant?", "options": ["Yes, worms/caterpillars", "Yes, small insects", "No", "Not sure"] },
+    "moisture": { "id": "soil_condition", "question": "What is the soil condition around the plant?", "options": ["Very dry", "Wet or waterlogged", "Normal", "Not sure"] },
+    "yellow": { "id": "yellowing_location", "question": "Where does the yellowing start?", "options": ["Older/lower leaves", "Newer/upper leaves", "All over", "Not sure"] },
+    "dead_heart": { "id": "stem_check", "question": "Is the central shoot dead, or are there holes/tunnels in the stem?", "options": ["Dead central shoot", "Stem holes/tunnels", "Both", "Neither / not sure"] }
+  },
+  "default_extension_message": "Please consult an agricultural extension officer for an in-person assessment."
+}

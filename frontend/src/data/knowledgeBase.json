@@ -1,0 +1,631 @@
+{
+  "problem_categories": [
+    {
+      "id": "faw-001",
+      "crop": "Maize",
+      "problem_name": "Fall Armyworm",
+      "scientific_name": "Spodoptera frugiperda",
+      "category": "Pest (insect)",
+      "mvp_status": "core",
+      "description": "An invasive caterpillar pest that feeds inside the whorl (the tightly rolled young leaves at the plant's center) and can cause severe damage if not caught early. Present across most of Zambia's maize-growing areas since 2016.",
+      "symptoms": [
+        "Ragged, elongated holes in leaves, often in a row where the leaf was folded",
+        "Window-pane patches where only the leaf surface was scraped away",
+        "Sawdust-like droppings (frass) visible inside or near the whorl",
+        "Damage concentrated in the whorl and, later, developing cobs"
+      ],
+      "causes": [
+        "Moths migrate into fields and lay eggs on leaves; hatched larvae move into the whorl to feed"
+      ],
+      "verification_signs": [
+        "Look inside the whorl of affected plants for caterpillars: pale body with dark raised spots, and an upside-down 'Y' marking on the head",
+        "Four spots arranged in a square on the second-to-last body segment (distinguishes it from other similar caterpillars)",
+        "Frass (small dark droppings) inside the whorl"
+      ],
+      "recommended_action": "Scout fields weekly starting soon after seedlings emerge (from about 2-3 weeks after planting). If caterpillars are found in the whorl before the plant is shoulder-high, treatment is more effective. Follow an integrated approach: handpicking/crushing where infestations are small, encouraging natural predators, and using an insecticide approved by local agricultural authorities if infestation is heavy — apply according to the product label and local extension guidance rather than a fixed generic dosage.",
+      "prevention": [
+        "Scout regularly, especially in the first 6 weeks after planting",
+        "Avoid staggered planting dates near already-infested fields where practical",
+        "Intercropping and conserving natural predators (birds, parasitic wasps, egg/larval parasitoids) can reduce pressure",
+        "Encouraging flowering plants at field margins can attract natural enemies of the pest"
+      ],
+      "severity": "Can range from minor leaf damage to total crop loss if untreated during early whorl stage; can also damage developing cobs directly, reducing grain quality and yield",
+      "warning_signs": [
+        "Widespread whorl damage across the field rather than a few plants",
+        "Damage progressing to the developing cob"
+      ],
+      "when_to_contact_extension_worker": "If infestation is heavy, spreading fast, or the farmer is unsure which insecticide is safe and approved for use",
+      "source": "CABI Plantwise / Invasive Species Compendium; Agroberichten Buitenland identification guide; IPPC pest report (Zambia Agriculture Research Institute)",
+      "source_url": "https://www.cabi.org/isc/datasheet/29810",
+      "additional_sources": [
+        {
+          "publisher": "International Plant Protection Convention (IPPC) / Zambia Agriculture Research Institute (ZARI)",
+          "title": "Preliminary Report on Fall Armyworm in Zambia (Report ZMB-02/3)",
+          "note": "Confirms ZARI, through its Plant Quarantine and Phytosanitary Service, as the official national body that first surveilled and confirmed Fall Armyworm presence in Zambia in 2016/2017. Verified directly by fetching this page.",
+          "url": "https://www.ippc.int/en/countries/zambia/pestreports/2017/02/preliminary-report-on-fall-armyworm-in-zambia"
+        }
+      ],
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "official_country_context": {
+        "note": "The hectare/household/percentage statistics previously drafted for this field (from a separately-sourced file) could not be independently confirmed via search and are pending direct verification by the project team against the original agriculture.gov.zm articles before use in any public-facing material or pitch.",
+        "verified_facts": [
+          "Fall Armyworm was first detected in Zambia in 2016 and has remained present since.",
+          "ZARI's Plant Quarantine and Phytosanitary Service is the official national contact point for Fall Armyworm surveillance in Zambia.",
+          "A CABI-led biological control project (ACIAR-funded, 2023-2026) is active in Zambia, working with the University of Zambia and ZARI, citing that at least 98% of smallholder Zambian farmers are affected by Fall Armyworm every cropping cycle."
+        ],
+        "sources": [
+          {
+            "publisher": "ACIAR / CABI",
+            "title": "Village-based biological control of fall armyworm in Zambia (Project CROP/2022/112)",
+            "url": "https://aciar.gov.au/sites/default/files/pdf/project/crop-2022-112.pdf"
+          }
+        ]
+      },
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "msv-001",
+      "crop": "Maize",
+      "problem_name": "Maize Streak Disease",
+      "scientific_name": "Maize streak virus (MSV)",
+      "category": "Disease (viral)",
+      "mvp_status": "core",
+      "description": "A viral disease spread by leafhopper insects. It is one of the most damaging maize diseases in Africa and can cause total yield loss if plants are infected while very young.",
+      "symptoms": [
+        "Narrow, broken yellow to pale-green streaks running along the leaf veins",
+        "Streaks visible on both leaf surfaces",
+        "Severe stunting if infection happens at the 4-5 leaf stage",
+        "Unusual bunching of leaves/shoots and reddish leaf discoloration in severe cases"
+      ],
+      "causes": [
+        "Transmitted by the maize leafhopper, which picks up and spreads the virus between plants",
+        "Not spread directly plant-to-plant without the leafhopper",
+        "Late-planted crops are exposed to higher leafhopper populations and higher disease risk"
+      ],
+      "verification_signs": [
+        "Yellow/pale streaks parallel to leaf veins, not random blotches",
+        "Check for leafhoppers (small, pale, wedge-shaped insects) on the underside of leaves",
+        "Younger plants showing more severe stunting than older ones nearby"
+      ],
+      "recommended_action": "Remove and destroy infected plants as soon as they're spotted (pull the whole plant, place in a sack rather than dropping it in the field, so leafhoppers don't move to healthy plants). Keep fields and surrounds free of grasses and volunteer cereal plants, which host the leafhopper.",
+      "prevention": [
+        "Use certified, disease-free seed",
+        "Plant early in the rainy season so seedlings pass the vulnerable early stage quickly",
+        "Remove grass weeds and old cereal crop residue near the field",
+        "Avoid staggered/late planting near already-infected fields where possible"
+      ],
+      "severity": "Can cause total yield loss if infection occurs before the plant is 6 weeks old; less damaging on older plants",
+      "warning_signs": [
+        "Infection spreading rapidly across a young field",
+        "Severe stunting affecting a large portion of seedlings"
+      ],
+      "when_to_contact_extension_worker": "If a large share of young seedlings across the field show streaking and stunting, since replanting decisions may be needed",
+      "source": "CABI Plantwise Pest Management Decision Guide, Maize Streak Virus (Ethiopia/Malawi editions)",
+      "source_url": "https://farmknowledge.info/Resource/627880",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "rust-001",
+      "crop": "Maize",
+      "problem_name": "Common Rust",
+      "scientific_name": "Puccinia sorghi",
+      "category": "Disease (fungal)",
+      "mvp_status": "core",
+      "description": "A fungal leaf disease that produces raised, rust-colored pustules on leaves. It's favored by cool, humid conditions and near-100% relative humidity with dew, and usually causes limited yield loss unless infection is severe and early.",
+      "symptoms": [
+        "Circular to elongated golden-brown or cinnamon-brown, powdery pustules on both leaf surfaces",
+        "Pustules turn darker brown to black as the plant matures and the fungus produces its resting spore stage",
+        "In severe early infections, affected leaves may yellow and die early, and infection can spread to leaf sheaths"
+      ],
+      "causes": [
+        "Fungal spores spread by wind and rain; disease favored by cool nights, high humidity, and dew",
+        "Hot, dry weather slows disease development"
+      ],
+      "verification_signs": [
+        "Rub a pustule gently — rust diseases leave a rusty, powdery residue on your finger",
+        "Pustules scattered rather than in neat rows or rectangular blocks (helps distinguish from Gray Leaf Spot)",
+        "Present on both sides of the leaf, not just one"
+      ],
+      "recommended_action": "For most smallholder situations common rust causes limited damage and may not need chemical treatment. If pustules are dense and appear early in the season on many plants (roughly six or more pustules per leaf on average), a fungicide recommended by a local extension officer or approved agro-dealer can help, especially on susceptible varieties.",
+      "prevention": [
+        "Plant rust-resistant maize varieties where available",
+        "Avoid excessive nitrogen application, which can increase susceptibility",
+        "Rotate crops and manage field residue where practical"
+      ],
+      "severity": "Usually low; can be more damaging if infection is heavy and occurs early in the season on susceptible varieties, reducing plant productivity and increasing lodging risk",
+      "warning_signs": [
+        "Pustules coalescing (merging) across large parts of the leaf",
+        "Widespread early-season infection across the field"
+      ],
+      "when_to_contact_extension_worker": "If pustules are dense on most plants early in the season and the farmer is unsure whether fungicide treatment is worthwhile",
+      "source": "University of Tennessee Crops guide; Plantwise Plus Knowledge Bank; Agri Farming pest and disease management reference",
+      "source_url": "https://guide.utcrops.com/corn/foliar-disease/common-rust",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "gls-001",
+      "crop": "Maize",
+      "problem_name": "Gray Leaf Spot",
+      "scientific_name": "Cercospora zeae-maydis",
+      "category": "Disease (fungal)",
+      "mvp_status": "core",
+      "description": "A fungal disease causing rectangular leaf lesions that can merge and destroy large areas of leaf tissue, significantly reducing yield if it strikes before grain fill. Confirmed as a serious problem in several African maize-growing regions.",
+      "symptoms": [
+        "Small tan to yellow spots on lower leaves first, appearing before or around flowering",
+        "Spots elongate into narrow, rectangular, gray-brown lesions running parallel to leaf veins",
+        "Lesions can merge, causing large areas of dead, blighted leaf tissue",
+        "Symptoms progress from lower leaves upward over time"
+      ],
+      "causes": [
+        "Fungus survives in old maize crop residue in the soil",
+        "Spreads via wind and rain-splash in warm, humid, low-airflow conditions",
+        "Worsened by continuous maize planting without rotation and reduced tillage"
+      ],
+      "verification_signs": [
+        "Lesions are straight-edged and rectangular (boxy), unlike the round scattered pustules of Common Rust",
+        "Lesions run parallel to the leaf veins and generally do not cross major veins",
+        "Symptoms start on the lowest, oldest leaves"
+      ],
+      "recommended_action": "Where lesions are still limited to lower leaves, monitor closely. If lesions are spreading upward and merging before the plant reaches grain-filling stage, a fungicide recommended by extension services may be justified given the risk of yield loss.",
+      "prevention": [
+        "Rotate maize with a non-cereal crop where land allows",
+        "Bury or remove old maize residue rather than leaving it on the surface",
+        "Plant resistant hybrids where available",
+        "Avoid dense planting that reduces airflow between plants"
+      ],
+      "severity": "Can be severe — yield losses of 30-100% have been reported when infection is heavy and occurs before grain fill",
+      "warning_signs": [
+        "Lesions merging into large blighted patches",
+        "Disease reaching the upper leaves before or during grain fill"
+      ],
+      "when_to_contact_extension_worker": "If lesions are spreading rapidly up the plant before grain fill, since this stage carries the highest risk of serious yield loss",
+      "source": "UK DFID Crop Protection Programme report (Kenya); Cornell CALS Field Crops; Plantix agronomy guide",
+      "source_url": "https://assets.publishing.service.gov.uk/media/57a08d10e5274a31e0001604/R7566_FTR_Appendix_6.pdf",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "official_country_context": {
+        "zimbabwe": {
+          "diagnostic_note": "Zimbabwe's Ministry pest-alert material describes Grey Leaf Spot as producing smaller rectangular lesions that do not cross the leaf veins, distinguishing it from Goss's wilt and other maize leaf lesions.",
+          "sources": [
+            {
+              "publisher": "Zimbabwe Ministry of Lands, Agriculture, Fisheries, Water and Rural Development",
+              "title": "Pest Alert / Maize Disease Differential Guide",
+              "url": "https://www.agric.gov.zw/wordpress/wp-content/uploads/2020/07/Pest-Control-Flier_PRINT-COPY-1.pdf"
+            }
+          ]
+        }
+      },
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "stemborer-001",
+      "crop": "Maize",
+      "problem_name": "Stem Borer Damage",
+      "scientific_name": "Busseola fusca / Chilo partellus",
+      "category": "Pest (insect)",
+      "mvp_status": "core",
+      "description": "Caterpillars that start by feeding on young whorl leaves, then bore into the stem itself, where they're protected from most sprays. One of the most significant insect pests of maize across sub-Saharan Africa, including Zambia, where both species have been recorded across different agroecological regions.",
+      "symptoms": [
+        "Rows of small holes ('shot holes') or window-like patches on unfolding whorl leaves",
+        "Central shoot/growing point dries and dies ('dead heart') on young plants",
+        "Visible bore holes on the stem, often near the nodes",
+        "Sawdust-like frass near stem entry holes",
+        "Weak, easily broken (lodging) stems in older, heavily tunneled plants"
+      ],
+      "causes": [
+        "Moths lay eggs on leaves or behind leaf sheaths; young larvae feed on whorl leaves before boring into the stem",
+        "Larvae that survive in crop stubble after harvest are a major source of the next season's infestation"
+      ],
+      "verification_signs": [
+        "Rows of holes across a leaf that align when the leaf is unfolded — a sign the damage happened while the leaf was still rolled in the whorl",
+        "Dead, dried central shoot that pulls out easily ('dead heart'), with the surrounding leaves still green",
+        "Cutting open an affected stem reveals a tunnel and a caterpillar with a grayish or yellow-brown body"
+      ],
+      "recommended_action": "Check plants for early shot-hole damage from about 4-6 weeks after planting. Remove and destroy plants showing dead heart, since the larva is usually still inside and will move to the next plant otherwise. Destroy old maize stubble after harvest rather than leaving it in the field, since larvae overwinter there. Where infestation is heavy, an insecticide approved for stem borer control and recommended by local extension services can be applied while larvae are still in the whorl, before they bore into the stem — controlling the first generation is important, since a second generation is typically more numerous and harder to manage.",
+      "prevention": [
+        "Destroy and remove maize stubble immediately after harvest",
+        "Intercropping (e.g., with legumes) can reduce infestation pressure",
+        "Plant early in the rainy season where possible",
+        "Use tolerant/resistant varieties where available"
+      ],
+      "severity": "Can range from minor leaf damage to complete loss of individual plants (dead heart); yield loss of 10-100% has been reported depending on infestation level. Zambian field surveys have recorded infestation levels varying widely by region, from under 15% in some areas to well over 20% in others.",
+      "warning_signs": [
+        "Dead heart appearing on many plants across the field, not isolated cases",
+        "Stems breaking/lodging due to internal tunneling"
+      ],
+      "when_to_contact_extension_worker": "If dead heart or stem tunneling is widespread across the field, or if the farmer is unsure which insecticide is safe to use at this crop stage",
+      "source": "CIMMYT insect pest reference; TNAU Agritech Portal; Plantwise Pest Management Decision Guide; peer-reviewed Zambia stalk borer field survey (Springer)",
+      "source_url": "https://agritech.tnau.ac.in/crop_protection/maize/crop_prot_maize_2.html",
+      "additional_sources": [
+        {
+          "publisher": "Springer (peer-reviewed)",
+          "title": "Field survey of stalk borer infestation and distribution across agroecological regions of Zambia (1987/88-1989/90 seasons)",
+          "note": "Confirms Busseola fusca, Chilo partellus and Sesamia calamistis are all present in Zambia, with B. fusca the most widespread and predominant species overall.",
+          "url": "https://link.springer.com/article/10.1017/S174275840001540X"
+        }
+      ],
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "nitrogen-001",
+      "crop": "Maize",
+      "problem_name": "Nitrogen Deficiency",
+      "scientific_name": null,
+      "category": "Abiotic (nutrient deficiency)",
+      "mvp_status": "core",
+      "description": "A shortage of available nitrogen in the soil, one of the most common nutrient problems in smallholder maize, especially on sandy or heavily leached soils, or where fertilizer was applied too little or too late.",
+      "symptoms": [
+        "Yellowing that starts at the tip of older, lower leaves and spreads inward in a V-shape toward the leaf's midrib",
+        "Older/lower leaves affected first — nitrogen moves from old leaves to new growth inside the plant",
+        "Overall pale green, stunted, thin-stalked plants",
+        "Reduced cob size and incomplete kernel fill in severe cases"
+      ],
+      "causes": [
+        "Insufficient fertilizer applied, or applied at the wrong growth stage",
+        "Leaching from sandy soils or heavy rainfall",
+        "Low soil organic matter"
+      ],
+      "verification_signs": [
+        "Check the OLDER, lower leaves first — nitrogen deficiency shows there before younger leaves",
+        "Look for the characteristic V-shaped yellowing starting at the leaf tip and running down the midrib",
+        "Compare against nearby better-fertilized plants if available"
+      ],
+      "recommended_action": "Apply nitrogen fertilizer (e.g., urea or a recommended basal/top-dressing compound such as 7:14:7) at the rate and timing recommended for the local soil type and yield target — a local extension officer or soil test can help determine the right amount for the field, since over-application wastes money and can harm the crop. Top-dressing is generally most effective when applied 3.5 to 6 weeks after crop emergence, and may be split into two applications on sandy soils.",
+      "prevention": [
+        "Follow recommended fertilizer application timing (basal at/before planting, top-dressing 3.5-6 weeks after emergence)",
+        "Add organic matter/manure to improve soil nitrogen-holding capacity",
+        "Get soil tested periodically where possible"
+      ],
+      "severity": "Ranges from mild yellowing with limited yield impact to severe stunting and poor grain fill if left uncorrected",
+      "warning_signs": [
+        "Yellowing affecting most of the field rather than a few plants",
+        "Severe stunting alongside the yellowing"
+      ],
+      "when_to_contact_extension_worker": "If the farmer is unsure how much fertilizer to apply, or if yellowing is severe and widespread despite fertilizer already being applied",
+      "source": "Yara crop nutrition guide; ICL Growing Solutions maize nutrient deficiency guide; regional Maize Growers Guide (fertiliser and top-dressing timing)",
+      "source_url": "https://www.yara.nl/en-my/gewasvoeding/maize/nutrient-deficiencies-maize/nitrogen-deficiency-maize/",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "official_country_context": {
+        "zambia": {
+          "policy_context": "For the 2024/2025 season, Zambia's FISP e-voucher input package included both basal and top-dressing fertilizer for beneficiary farmers. This is policy/input-package context only and must NOT be interpreted by AgriMobi as a field-specific fertilizer recommendation.",
+          "safety_note": "AgriMobi should continue to recommend locally appropriate fertilizer rates based on extension guidance, soil conditions and, where available, soil testing rather than converting government input packages into universal application rates.",
+          "sources": [
+            {
+              "publisher": "Zambia Ministry of Agriculture",
+              "title": "Copperbelt FISP Beneficiaries Elevated to E-Voucher System",
+              "url": "https://www.agriculture.gov.zm/2024/09/copperbelt-fisp-beneficiaries-elevated-to-e-voucher-system/"
+            }
+          ]
+        }
+      },
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "drought-001",
+      "crop": "Maize",
+      "problem_name": "Drought Stress",
+      "scientific_name": null,
+      "category": "Abiotic (environmental stress)",
+      "mvp_status": "core",
+      "description": "Water shortage severe enough to affect plant growth, common in Zambia and Zimbabwe during dry spells or poorly-timed rainy seasons. Maize is especially sensitive to drought around flowering/silking, and to heat above about 38°C, which affects pollen viability.",
+      "symptoms": [
+        "Leaves rolling or folding lengthwise (like a drinking straw), especially in the heat of the day",
+        "Leaves that stay rolled even in early morning/evening as stress worsens",
+        "Grayish-green or dull leaf color",
+        "Stunted growth and delayed silking/tasseling",
+        "Poor kernel formation if drought hits around flowering"
+      ],
+      "causes": [
+        "Extended period without sufficient rainfall or irrigation",
+        "Sandy soils with poor water retention worsening the effect",
+        "Late planting, which increases the chance the crop's flowering period coincides with a dry spell"
+      ],
+      "verification_signs": [
+        "Check if leaves unroll in the cool of early morning — if they do, it's likely drought stress rather than another cause",
+        "Confirm soil is genuinely dry by feel/appearance a few centimeters below the surface",
+        "Rule out waterlogging and disease as competing explanations for wilting"
+      ],
+      "recommended_action": "Irrigate if any water source is available, prioritizing the four-week period spanning flowering (tasseling and silking), since that's when drought causes the most yield damage. Mulching, pot-holing, or tied-ridging can help retain soil moisture, especially in drier areas. If no irrigation is possible, focus on minimizing further stress (e.g., avoid unnecessary soil disturbance) and prepare for possible yield loss.",
+      "prevention": [
+        "Choose drought-tolerant maize varieties where available",
+        "Mulch, pot-hole, or use tied-ridges to conserve soil moisture, particularly in low-rainfall areas",
+        "Plant as early as possible within the recommended planting window for the local rainy season, since delayed planting increases drought risk at flowering",
+        "Improve soil organic matter to boost water retention"
+      ],
+      "severity": "Ranges from temporary leaf rolling with little yield impact to severe yield loss if drought coincides with flowering/silking",
+      "warning_signs": [
+        "Leaves remaining rolled through the cool morning hours",
+        "Drought occurring during flowering/silking, the most sensitive stage"
+      ],
+      "when_to_contact_extension_worker": "If drought is prolonged and severe with no irrigation option and the farmer needs guidance on salvaging the crop or planning for the season",
+      "source": "Peer-reviewed drought physiology research (Acta Botanica Croatica; Frontiers in Plant Science mitigation review); regional Maize Growers Guide",
+      "source_url": "https://doi.org/10.3389/fpls.2022.875774",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "official_country_context": {
+        "zambia": {
+          "evidence": [
+            "The 2023/2024 agricultural season was affected by a severe climate-induced drought.",
+            "The Ministry later described the 2025/2026 season as part of a recovery in maize production following that drought."
+          ],
+          "sources": [
+            {
+              "publisher": "Zambia Ministry of Agriculture",
+              "title": "Zambia Projected to Produce Nearly 5 Million Metric Tonnes of Maize",
+              "url": "https://www.agriculture.gov.zm/2026/05/zambia-projected-to-produce-nearly-5-million-metric-tonnes-of-maize/"
+            }
+          ]
+        },
+        "zimbabwe": {
+          "evidence": [
+            "Zimbabwe's 2023/2024 crop assessment reported erratic and insufficient rainfall with prolonged dry and hot spells that negatively affected maize yields."
+          ],
+          "sources": [
+            {
+              "publisher": "Zimbabwe Ministry of Lands, Agriculture, Fisheries, Water and Rural Development",
+              "title": "2023/2024 Second Round Crop, Livestock and Fisheries Assessment",
+              "url": "https://www.agric.gov.zw/wordpress/wp-content/uploads/2020/07/Clafa-210424-Print-Final-Approved.pdf"
+            }
+          ]
+        }
+      },
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "waterlog-001",
+      "crop": "Maize",
+      "problem_name": "Water Stress / Waterlogging",
+      "scientific_name": null,
+      "category": "Abiotic (environmental stress)",
+      "mvp_status": "core",
+      "description": "Excess standing or saturated soil water that deprives maize roots of oxygen, common after heavy rain in poorly-drained fields. Maize is notably sensitive to waterlogging compared to many other cereals.",
+      "symptoms": [
+        "Yellowing starting on older/lower leaves, spreading from the leaf tip",
+        "Leaves overall looking pale, chlorotic (washed-out yellow-green)",
+        "Stunted plant height and reduced root growth",
+        "Visible standing water or saturated, muddy soil around the plant base",
+        "Roots appearing dark, mushy, or decayed if the plant is uprooted"
+      ],
+      "causes": [
+        "Heavy or prolonged rainfall combined with poor field drainage",
+        "Low-lying or compacted fields that hold water"
+      ],
+      "verification_signs": [
+        "Confirm recent heavy rain and standing/saturated soil rather than dry conditions",
+        "Uproot a plant and check for dark, soft, decaying roots (distinguishes from drought, where roots stay firm)",
+        "Yellowing pattern similar to nitrogen deficiency — check soil wetness to tell them apart"
+      ],
+      "recommended_action": "Improve drainage where possible (open small channels to let standing water escape). Avoid applying fertilizer while soil is waterlogged, since roots can't take it up and it can wash away. Once the field drains, monitor for delayed recovery.",
+      "prevention": [
+        "Avoid planting maize in low-lying, poorly-drained fields where avoidable, unless practices like ridge tillage, drainage, and early planting are used",
+        "Maintain drainage channels/ridging, especially before the peak rainy season",
+        "Avoid soil compaction from heavy machinery or livestock on wet soil"
+      ],
+      "severity": "Can significantly reduce growth and yield, especially if waterlogging occurs at early growth stages or lasts several days",
+      "warning_signs": [
+        "Standing water persisting for several days",
+        "Roots showing clear decay when checked"
+      ],
+      "when_to_contact_extension_worker": "If waterlogging is recurring on the same field each season, since a longer-term drainage solution may be needed",
+      "source": "Peer-reviewed waterlogging physiology studies (Agricultural Science Digest; Journal of Agricultural Science and Technology); regional Maize Growers Guide",
+      "source_url": "https://arccjournals.com/journal/agricultural-science-digest/DF-500",
+      "last_verified": "2026-09-13",
+      "version": "1.1",
+      "official_country_context": {
+        "zimbabwe": {
+          "diagnostic_note": "Zimbabwe Ministry pest-alert material notes that heat and water stress can produce dry, wavy maize leaf lesions and can be confused with disease. AgriMobi should therefore ask about soil moisture, recent rainfall/heat, drainage, and disease-specific signs before classifying a stress symptom.",
+          "sources": [
+            {
+              "publisher": "Zimbabwe Ministry of Lands, Agriculture, Fisheries, Water and Rural Development",
+              "title": "Pest Alert / Maize Disease Differential Guide",
+              "url": "https://www.agric.gov.zw/wordpress/wp-content/uploads/2020/07/Pest-Control-Flier_PRINT-COPY-1.pdf"
+            }
+          ]
+        }
+      },
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional",
+      "country_relevance": ["Zambia", "Zimbabwe"]
+    },
+    {
+      "id": "aphid-001",
+      "crop": "Maize",
+      "problem_name": "Corn Leaf Aphid",
+      "scientific_name": "Rhopalosiphum maidis",
+      "category": "Pest (insect)",
+      "mvp_status": "extra",
+      "description": "A small sap-sucking insect that clusters in the whorl and on tassels, weakening plants and excreting honeydew that attracts sooty mold. Also capable of spreading certain viral diseases between plants.",
+      "symptoms": [
+        "Clusters of small, green to blue-green, powdery-looking insects in the whorl or on the tassel",
+        "Mottling and discoloration of leaves where colonies feed",
+        "Sticky honeydew residue, sometimes with black sooty mold growing on it",
+        "Plants appearing generally unthrifty or yellowed under heavy infestation, especially if already water-stressed"
+      ],
+      "causes": [
+        "Aphids colonize the whorl and tassel, feeding on sap and multiplying quickly in warm conditions"
+      ],
+      "verification_signs": [
+        "Look inside the whorl and on the tassel for small (about 2mm) green-blue insects, often in dense clusters",
+        "Check for black sooty mold growing on sticky honeydew on leaves below infested areas",
+        "Distinguish from caterpillar pests: aphids are small, soft-bodied, and stay clustered rather than chewing visible holes"
+      ],
+      "recommended_action": "Light infestations often do not need treatment, since natural predators (ladybirds, parasitic wasps, hoverfly larvae) usually keep populations in check. Avoid unnecessary insecticide use, since this removes these natural predators. If infestation is heavy and plants are visibly weakening, consult a local extension officer on an appropriate control option.",
+      "prevention": [
+        "Avoid unnecessary insecticide sprays that kill natural predators of aphids",
+        "Manage plant water stress where possible, since stressed plants are more vulnerable to aphid damage",
+        "Encourage flowering plants near fields to support predator insect populations"
+      ],
+      "severity": "Generally low to moderate; mainly a concern when populations are very high or when the plant is already stressed by drought",
+      "warning_signs": [
+        "Dense aphid colonies covering large parts of the whorl or tassel",
+        "Heavy sooty mold buildup reducing leaf photosynthesis"
+      ],
+      "when_to_contact_extension_worker": "If aphid colonies are dense and widespread and the crop is showing clear stress alongside them",
+      "source": "Agri Farming pest and disease management reference (general identification and biological control principles, not chemical dosages)",
+      "source_url": "https://www.agrifarming.in/pest-and-disease-management-in-maize-causes-symptoms-chemical-and-biological-control",
+      "last_verified": "2026-09-13",
+      "version": "1.0",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional. Not one of the 8 MVP core categories — included as an extra reference entry.",
+      "country_relevance": ["Zambia", "Zimbabwe"],
+      "confidence_note": "Source material is a general/global reference, not Zambia/Zimbabwe-specific. Biological control guidance is broadly applicable; no country-specific verification has been done for this entry."
+    },
+    {
+      "id": "shootfly-001",
+      "crop": "Maize",
+      "problem_name": "Shoot Fly",
+      "scientific_name": "Atherigona spp.",
+      "category": "Pest (insect)",
+      "mvp_status": "extra",
+      "description": "A small fly whose maggots bore into the central shoot of very young maize seedlings, killing the growing point ('dead heart'). Well documented as a maize pest in South Asia; present in Africa (including South Africa and Namibia) but less consistently reported as a major economic pest of maize in Southern Africa compared to stem borers and Fall Armyworm.",
+      "symptoms": [
+        "Small circular cuts at the point where the maggot entered a young shoot, usually just above the first leaf sheath",
+        "Central shoot wilts, turns pale green to yellow, and dies ('dead heart'), while surrounding leaves stay green",
+        "Affected seedlings become stunted with excessive tillering"
+      ],
+      "causes": [
+        "Small gray flies lay eggs singly on stems or soil near the base of young seedlings (3-4 leaf stage preferred)",
+        "The maggot bores into the shoot and kills the growing point"
+      ],
+      "verification_signs": [
+        "Only very young seedlings (up to about 3 weeks old) are typically affected",
+        "The dead heart pulls out easily and has a small entry hole near the base, distinct from stem borer dead heart which occurs on older plants",
+        "Usually only one larva is found per affected seedling"
+      ],
+      "recommended_action": "Remove and destroy seedlings showing dead heart. Sowing early, so seedlings pass the vulnerable early stage before fly populations peak, is the main non-chemical control. No established biological control is currently well documented for this pest.",
+      "prevention": [
+        "Plant as early as possible within the recommended local planting window",
+        "Avoid heavy fresh manure application right around planting, since it can attract egg-laying flies"
+      ],
+      "severity": "Generally low in Southern African maize compared to stem borer and Fall Armyworm; can cause localized stand loss in affected seedlings",
+      "warning_signs": [
+        "A cluster of dead-heart seedlings appearing very early in the season across the field"
+      ],
+      "when_to_contact_extension_worker": "If dead heart is appearing across many young seedlings and the farmer is unsure whether it's shoot fly or stem borer",
+      "source": "Agri Farming pest and disease management reference; Plantix pest library (general identification, not chemical dosages)",
+      "source_url": "https://www.agrifarming.in/pest-and-disease-management-in-maize-causes-symptoms-chemical-and-biological-control",
+      "last_verified": "2026-09-13",
+      "version": "1.0",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional. Not one of the 8 MVP core categories — included as an extra reference entry.",
+      "country_relevance": ["Zambia", "Zimbabwe"],
+      "confidence_note": "LOWER CONFIDENCE for this region: most detailed pest-management literature on shoot fly in maize is from South Asia. African research located during this pass is mostly taxonomic (species records in South Africa/Namibia) rather than confirming shoot fly as a significant economic pest of maize specifically in Zambia or Zimbabwe. Treat this entry as a lower-priority/possible classification rather than a well-established local threat, and prioritize dead-heart symptoms being classified as Stem Borer Damage unless the seedling is very young (under 3 weeks)."
+    },
+    {
+      "id": "spidermite-001",
+      "crop": "Maize",
+      "problem_name": "Spider Mites",
+      "scientific_name": "Tetranychidae (e.g. Oligonychus spp.)",
+      "category": "Pest (mite, not an insect)",
+      "mvp_status": "extra",
+      "description": "Tiny eight-legged arthropods that pierce leaf cells and suck out the contents, most damaging when populations build up during hot, dry weather. Damage above or near the ear has the greatest effect on yield.",
+      "symptoms": [
+        "Yellowish, stippled (speckled) patches on the upper leaf surface where mites are feeding on the underside",
+        "Fine webbing on the underside of leaves near the midrib in heavier infestations",
+        "Heavily infested leaves turning pale, drying out, and dying prematurely",
+        "In severe cases, stalk weakening and reduced kernel size"
+      ],
+      "causes": [
+        "Mite populations build up rapidly in hot, dry conditions",
+        "Populations often increase after unnecessary broad-spectrum insecticide use kills their natural predators"
+      ],
+      "verification_signs": [
+        "Use a hand lens or shake a leaf over white paper — mites appear as tiny moving specks",
+        "Check the underside of leaves near the midrib for fine silk-like webbing",
+        "Confirm the pattern is stippled speckling rather than the discrete pustules of rust or the rectangular lesions of Gray Leaf Spot"
+      ],
+      "recommended_action": "Encourage natural predators (ladybird beetles, predatory mites, minute pirate bugs) by avoiding unnecessary insecticide sprays, which often trigger mite outbreaks by killing these predators. If infestation is severe and yield-threatening, consult a local extension officer on an approved miticide option, since general insecticides are often ineffective against mites and can worsen outbreaks.",
+      "prevention": [
+        "Avoid unnecessary broad-spectrum insecticide applications that kill natural mite predators",
+        "Manage field dust and drought stress where possible, since both favor mite outbreaks",
+        "Monitor closely during hot, dry spells"
+      ],
+      "severity": "Can be significant in hot, dry seasons, particularly when infestation occurs at or above ear level",
+      "warning_signs": [
+        "Rapid spread of stippling and webbing during a dry spell",
+        "Damage reaching the leaves at or above the ear"
+      ],
+      "when_to_contact_extension_worker": "If infestation is spreading fast during dry weather and threatening leaves near the ear",
+      "source": "Agri Farming pest and disease management reference (general identification and biological control principles, not chemical dosages)",
+      "source_url": "https://www.agrifarming.in/pest-and-disease-management-in-maize-causes-symptoms-chemical-and-biological-control",
+      "last_verified": "2026-09-13",
+      "version": "1.0",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional. Not one of the 8 MVP core categories — included as an extra reference entry.",
+      "country_relevance": ["Zambia", "Zimbabwe"],
+      "confidence_note": "Source material is a general/global reference, not Zambia/Zimbabwe-specific. Spider mites are a recognized global maize pest, especially in drought conditions relevant to this region, but no country-specific confirmation has been done for this entry."
+    },
+    {
+      "id": "thrips-001",
+      "crop": "Maize",
+      "problem_name": "Thrips",
+      "scientific_name": "e.g. Frankliniella occidentalis and related species",
+      "category": "Pest (insect)",
+      "mvp_status": "extra",
+      "description": "Very small, slender insects that feed by rasping plant tissue and sucking the released fluids, most damaging to young seedlings and around ear formation. Damage is worse on plants already stressed by drought or waterlogging.",
+      "symptoms": [
+        "Stunted growth on young seedlings when thrips build up in the whorl",
+        "Distorted leaves that turn brownish around the edges and cup upward under heavy infestation",
+        "Silvery or bleached-looking damage on leaves, tassels, or ears where thrips have been feeding"
+      ],
+      "causes": [
+        "Thrips build up on weeds and other vegetation and move onto maize when those hosts are cut, dried, or die back",
+        "Damage is more severe on plants already under drought or waterlogging stress"
+      ],
+      "verification_signs": [
+        "Very small (about 1mm), slender insects visible in the whorl, on tassels, or under leaves — a hand lens helps",
+        "Silvery, bleached, or brownish rasped-looking patches rather than clean holes or lesions",
+        "Check whether nearby weeds or grasses have recently dried out or been cleared, which often precedes a thrips move onto the crop"
+      ],
+      "recommended_action": "Keep field margins clear of drying weeds and grasses where practical, since these host thrips before they move onto maize. Encourage natural predators (minute pirate bugs, ladybugs, lacewings). If a heavy infestation is stunting young plants or damaging ears, consult a local extension officer on an approved control option.",
+      "prevention": [
+        "Remove grass and weeds from around field areas, particularly before they dry out",
+        "Monitor seedlings weekly during the vulnerable early growth stage and again around ear formation",
+        "Manage drought and waterlogging stress where possible, since stressed plants suffer worse thrips damage"
+      ],
+      "severity": "Generally low to moderate; most concerning when it stunts very young seedlings or coincides with ear formation",
+      "warning_signs": [
+        "Stunted seedlings following a heavy thrips build-up",
+        "Damage appearing at ear formation, which can affect grain development"
+      ],
+      "when_to_contact_extension_worker": "If young seedlings are being stunted by thrips or damage is appearing at ear formation across many plants",
+      "source": "Agri Farming pest and disease management reference (general identification and biological control principles, not chemical dosages)",
+      "source_url": "https://www.agrifarming.in/pest-and-disease-management-in-maize-causes-symptoms-chemical-and-biological-control",
+      "last_verified": "2026-09-13",
+      "version": "1.0",
+      "data_scope": "Agronomic decision-support; not a substitute for field diagnosis by an extension professional. Not one of the 8 MVP core categories — included as an extra reference entry.",
+      "country_relevance": ["Zambia", "Zimbabwe"],
+      "confidence_note": "Source material is a general/global reference, not Zambia/Zimbabwe-specific. The link to drought/waterlogging stress is directly relevant to this region's growing conditions, but no country-specific confirmation has been done for this entry."
+    }
+  ],
+  "agronomic_reference": {
+    "note": "General maize agronomy background, not tied to a specific problem diagnosis. Useful for prevention text and for follow-up questions (e.g. 'when did you plant', 'what fertilizer did you apply') that help distinguish abiotic stress from pest/disease causes. Sourced from a regional (Zimbabwe/Seed Co) maize growers' guide; broadly applicable across similar Southern African growing conditions but not Zambia-specific.",
+    "planting_window": "Yield drops the later maize is planted; on average, yield loss is about one 50kg bag per hectare for every day planting is delayed past the optimal window. Planting with the first reliable rains is generally the safest approach under rainfed conditions; very early (pre-rain) planting is risky unless substantial rain (over 50mm) has already fallen and soil is wet well below the surface.",
+    "plant_population": "Recommended plant populations for maize typically range from about 36,000 to 60,000 plants per hectare, with lower populations (around 37,000-40,000/ha) recommended under drought-prone, rainfed conditions, and higher populations suited to high-rainfall or irrigated conditions with good management.",
+    "fertilizer_guidance": "Fertilizer needs depend on soil fertility and yield target — infertile soils and higher yield targets both require more fertilizer. Basal fertilizer should be applied before or at planting time. Top-dressing (high-nitrogen fertilizer) is generally most effective when applied 3.5 to 6 weeks after crop emergence, and may be split into two applications on sandy soils. This is general guidance only — exact rates should come from local extension advice or soil testing, not applied as a fixed universal recommendation.",
+    "weed_control": "Weed competition in the first 10 weeks after crop emergence is critical; failing to control weeds in the first 5 weeks of the crop cycle can cause yield losses of 50% or more.",
+    "soil_and_climate": "Maize grows best on deep, well-drained, fertile soils with total seasonal rainfall above about 500mm. It is sensitive to both drought and waterlogging, so poorly-drained soils should be avoided unless drainage, ridging, or early planting practices are used. Temperatures above about 38°C can reduce pollen viability and affect yield; temperatures below about 10°C slow maize growth.",
+    "source": "Regional Maize Growers Guide (Zimbabwe / Seed Co context)",
+    "confidence_note": "This section is Zimbabwe-context agronomic guidance, not confirmed as Zambia-specific. Useful as general background; local extension guidance should take precedence for exact figures used in-app."
+  },
+  "knowledge_base_meta": {
+    "version": "1.1",
+    "last_verified": "2026-09-13",
+    "pending_actions": [
+      "Verify the specific Zambia/Zimbabwe hectare, household, and percentage statistics against the original agriculture.gov.zm and agric.gov.zw articles before using them in any pitch material.",
+      "Attempt to obtain the ZARI 2020 maize source document and the Zambia-specific CABI Plantwise Fall Armyworm manual from the Sprout Open Content platform (login-walled; CC-BY-4.0 licensed) for deeper Zambia-specific detail.",
+      "Confirm whether Shoot Fly is a significant enough maize pest in Zambia/Zimbabwe to justify keeping it in the app's classifier, or whether it should be deprioritized/removed given the low regional confidence noted on that entry."
+    ]
+  }
+}

@@ -1,0 +1,404 @@
+[
+ {
+  "symptoms": "worms in the whorl with frass and ragged holes",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "faw-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "yellow streaks along the veins and stunted maize",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "msv-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "powdery rust pustules on the leaves",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "rust-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "long rectangular grey-brown lesions on older lower leaves",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "gls-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "dead heart and tunnels in the stem with frass",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "stemborer-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "older lower leaves yellow in a V shape",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "nitrogen-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "leaves rolled like straws and very dry soil",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "drought-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "yellow leaves, standing water and mushy roots",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "waterlog-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "my maize is sick",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "the plant is robust and growing",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "the veins look pale",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "dead plants in the field",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "my old farm has yellow leaves",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "leaves have lines",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "plants wilt in the heat",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "the whole field is dying",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "heavy rainfall and yellow leaves",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "waterlog-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "window pane damage on leaves",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "shot holes in leaves and caterpillars",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "faw-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "bottom leaves are yellow and plants are weak",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "nitrogen-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "brown spots on leaves",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "rust-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "central shoot dies and stem tunnels",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "stemborer-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "the plant is stunted and pale",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "the soil is dry and leaves are folded",
+  "answers": {},
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "drought-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "rainfall was heavy and roots are decayed",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "yellow marks on leaves",
+  "answers": {
+   "leaf_pattern": "Yellow streaks or stripes along the veins"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "msv-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "plants look bad",
+  "answers": {
+   "stem_check": "Dead central shoot"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "stemborer-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "plants look bad",
+  "answers": {
+   "stem_check": "Stem holes/tunnels"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "stemborer-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "leaves turning yellow",
+  "answers": {
+   "soil_condition": "Wet or waterlogged"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "waterlog-001",
+   "confidence": "high",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "leaves turning yellow",
+  "answers": {
+   "soil_condition": "Very dry"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "drought-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "leaves turning yellow",
+  "answers": {
+   "yellowing_location": "Older/lower leaves"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "nitrogen-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "something is wrong",
+  "answers": {
+   "insects": "No",
+   "leaf_pattern": "Not sure"
+  },
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": false,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": true
+  }
+ },
+ {
+  "symptoms": "my maize is sick",
+  "answers": {
+   "leaf_pattern": "Round or powdery spots"
+  },
+  "expect": {
+   "status": "possible_problem",
+   "needs_followup": false,
+   "problem_id": "rust-001",
+   "confidence": "medium",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "   ",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ },
+ {
+  "symptoms": "Mabala yelo pa masamba",
+  "answers": {},
+  "expect": {
+   "status": "needs_more_info",
+   "needs_followup": true,
+   "problem_id": null,
+   "confidence": "low",
+   "requires_extension_support": false
+  }
+ }
+]
